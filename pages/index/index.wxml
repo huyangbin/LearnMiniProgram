@@ -2,3 +2,8 @@
 <text class="title">HELLO WORLD</text>
 <view></view>
 <button class="button1" size="mini">按钮</button>
+
+<view>1.知识点1（版本控制学习）</view>
+<view>git 和 gitgub</view>
+<view>tag的学习</view>
+
