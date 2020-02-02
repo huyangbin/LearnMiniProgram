@@ -1,0 +1,10 @@
+/* pages/index/index.wxss */
+.title{
+  color: red;
+  font-size: 50px;
+}
+
+.button1{
+  color: blue;
+  font-size: 50px;
+}

@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<text class="title">HELLO WORLD</text>
+<view></view>
+<button class="button1" size="mini">按钮</button>
