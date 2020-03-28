@@ -1,4 +1,11 @@
 <!--pages/index/index.wxml-->
-<text class="title">HELLO WORLD</text>
-<view></view>
-<button class="button1" size="mini">按钮</button>
+<!-- 知识点2——数据引用 -->
+<view>HELLO {{name}}</view>
+<view>Age:{{age}}</view>
+<!-- 列表的展示 -->
+<!-- <view wx:for="{{student}}">{{item}}</view> -->
+<view wx:for="{{student}}">{{item.name}}</view>
+<!-- 事件监听改变数据 -->
+<view>当前计数:{{count}}</view>
+<button bindtap="Btn_add">+</button>
+<button bindtap="Btn_subtraction">-</button>

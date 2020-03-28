@@ -5,7 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
+    name:'HYB',
+    age:'18',
+    count:0,
+    student:[
+      { id: 1, name: 'huyb1', age: '20' },
+      { id: 2, name: 'huyb2', age: '20' },
+      { id: 3, name: 'huyb3', age: '20' },
+      { id: 4, name: 'huyb4', age: '20' },
+    ]
+  },
 
+  Btn_add(){
+    this.setData({
+      count: this.data.count + 1
+    })  
+  },
+  Btn_subtraction(){
+    this.setData({
+      count: this.data.count - 1
+    })  
   },
 
   /**
